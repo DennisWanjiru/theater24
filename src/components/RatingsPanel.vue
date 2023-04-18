@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, toRefs, watch } from 'vue'
+import { onMounted, ref, toRefs, watch } from 'vue'
 
 const props = defineProps<{
   rating: number
@@ -8,6 +8,12 @@ const props = defineProps<{
 const { rating } = toRefs(props)
 const fullStars = ref(0)
 const emptyStars = ref(0)
+
+onMounted(() => {
+  const stars = Array(Math.floor(rating.value / 2)).length
+  fullStars.value = stars
+  emptyStars.value = 5 - stars
+})
 
 watch(rating, () => {
   const stars = Array(Math.floor(rating.value / 2)).length
