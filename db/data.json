@@ -1,0 +1,75 @@
+{
+  "theaters": [
+    {
+      "id": "fsvgbjhrtb",
+      "name": "Theater X",
+      "logo": "http://logo.pixel",
+      "email": "theaterx@test.com"
+    },
+    {
+      "id": "fr3evb3g4",
+      "name": "Theater Q",
+      "logo": "http://logo.pixel",
+      "email": "theaterq@test.com"
+    },
+    {
+      "id": "fvdbe3r4fgvrb",
+      "name": "Theater Z",
+      "logo": "http://logo.pixel",
+      "email": "theaterz@test.com"
+    },
+    {
+      "id": "oRwaOqH6yqPOdRcRxGMvXcngMSj1",
+      "name": "Watermelon",
+      "email": "theater1@gmail.com"
+    },
+    {
+      "id": "Rb8iEnDpMEUK5TNFOXzd20WNny82",
+      "name": "Karl",
+      "email": "the1@gmail.com"
+    },
+    {
+      "id": "bPAsl6x7cVRCp0Ns5jTVlwtfQ4t2",
+      "name": "Nesh Paint Shop",
+      "email": "nesh@gmail.com"
+    },
+    {
+      "id": "lssXdnLCPmc4RhQoJvYhhyT3feh2",
+      "name": "Apples Theatre",
+      "email": "apples@gmail.com"
+    },
+    {
+      "id": "ZV7dEAwu7EQ18qGCK7o32gfqoty2",
+      "name": "X Vendor",
+      "email": "xvendor@gmail.com"
+    },
+    {
+      "id": "DI1g4ucSJuZ3EZwUJ0sIIWPmVys1",
+      "name": "Cinemax",
+      "email": "cinemax@theater24.com"
+    },
+    {
+      "id": "Z8REOTlrsoX8l8yOMCe1TMdDTHC3",
+      "name": "iMax",
+      "email": "imax@theater24.com"
+    },
+    {
+      "id": "m8csArMzyabFNJI6ed9N4prayUy2",
+      "photoURL": "",
+      "name": "Century",
+      "email": "century@theater24.com"
+    },
+    {
+      "id": "GwHYaD4p0yMGCERFnz9GRK3pIci2",
+      "photoURL": "https://res.cloudinary.com/dmjp9nit3/image/upload/v1682446963/ztgp5h3taw7lk5x9e91f.jpg",
+      "name": "tezt",
+      "email": "tezt@theater24.com"
+    },
+    {
+      "id": "OzPQozsnJ6gJmfeBq7AmOuDSo252",
+      "photoURL": "https://res.cloudinary.com/dmjp9nit3/image/upload/v1682448161/tzkw4xfkzca9337sn74l.png",
+      "name": "test 2",
+      "email": "test2@theater24.com"
+    }
+  ]
+}

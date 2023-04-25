@@ -9,3 +9,15 @@ export const getRuntime = (minutes: number): string => {
 
   return runtime
 }
+
+export const setLocalStorage = (key: string, value: string): void => {
+  localStorage.setItem(key, value)
+}
+
+export const getLocalStorage = (key: string): string => {
+  return localStorage.getItem(key) ?? ''
+}
+
+export const removeLocalStorage = (key: string): void => {
+  return localStorage.removeItem(key)
+}

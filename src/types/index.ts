@@ -1,3 +1,5 @@
+import type { User } from 'firebase/auth'
+
 export interface MovieType {
   adult: boolean
   backdrop_path: string
@@ -77,4 +79,23 @@ export interface Trailer {
   official: boolean
   published_at: Date
   id: string
+}
+
+export interface TheaterType {
+  id: string
+  name: string
+  email: string
+  photoURL?: string
+}
+
+export interface LoggedInUserType {
+  id: string
+  accessKey: string
+  refreshToken: string
+  user: User
+}
+
+export interface UpdateUserType {
+  displayName?: string
+  photoURL?: string
 }

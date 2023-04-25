@@ -72,12 +72,14 @@ watch(movie, async () => {
           {{ movie.overview }}
         </p>
 
-        <button
-          class="flex items-center justify-center bg-pink-500 text-white w-40 p-3 rounded-full mt-10 transition ease-out duration-700"
-        >
-          <i class="pi pi-shopping-cart mr-2" style="font-size: 1rem"></i>
-          <p>Buy ticket</p>
-        </button>
+        <RouterLink :to="`/checkout/${movie.id}`">
+          <button
+            class="flex items-center justify-center bg-pink-500 text-white w-40 p-3 rounded-full mt-10 transition ease-out duration-700"
+          >
+            <i class="pi pi-shopping-cart mr-2" style="font-size: 1rem"></i>
+            <p>Buy ticket</p>
+          </button>
+        </RouterLink>
       </div>
     </div>
   </header>
